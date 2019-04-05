@@ -10,7 +10,7 @@
 
 - 二维坐标系的旋转  
 
-一个二维坐标系Oxy，顺时针旋转α，变为Ox'y'坐标系，公式如下：  
-![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904051436.JPG "二维坐标系旋转矩阵表达式")  
+    一个二维坐标系Oxy，顺时针旋转α，变为Ox'y'坐标系，公式如下：  
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904051436.JPG "二维坐标系旋转矩阵表达式")  
 
 # END
