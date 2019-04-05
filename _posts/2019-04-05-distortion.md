@@ -7,4 +7,4 @@
 - 坐标系的转换
     - 二维坐标系的旋转  
     一个二维坐标系Oxy，顺时针旋转α，变为Ox'y'坐标系，公式如下：
-    ![fanlkpi](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904051436.JPG “二维坐标系的旋转”)
+    ![ReactiveCocoa进阶思维导图](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904051436.JPG)
