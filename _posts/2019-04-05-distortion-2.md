@@ -32,7 +32,7 @@
 现在，我们来做一下改系数的实验，看看有什么变化？  
 - 系数k1~k4，除了k1=1，其余全为0，则畸变实际上不存在，ru=rd  
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061348%E6%A0%A1%E6%AD%A3%E5%89%8D%E5%90%8E%E5%9B%BE%E7%89%87.jpg)
-    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061348%E6%A0%A1%E6%AD%A3%E5%89%8D%E5%90%8E%E5%9B%BE%E7%89%87.jpg)  
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061348rurd%E6%9B%B2%E7%BA%BF.jpg)  
 - 系数k1=1，k2=1.89e-3，其余全为0，如下图所示，桶形畸变得到了极大的校正，说明预设畸变个公式中，二次项权重对桶形畸变的影响较大 
    
 
