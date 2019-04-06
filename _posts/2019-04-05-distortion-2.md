@@ -28,8 +28,10 @@
 假设系统中只存在径向畸变，不存在平移旋转之类复杂情况，则公式简化为ru=rd×(k1+k2×rd^2+k3×rd^4+k4×rd^6)，其中几乎所有文献均将k1默认为1，此问题过后讨论。我们先预设两种畸变情况，桶形畸变公式系数k1=1.0，k2=1.89e-3，k3=-3.39e-6，k4=4.14e-8，则畸变校正前后的形状对比如下：  
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061315.jpg)  
     （觉不觉得边缘好像吃掉了半格宽度？后面讨论）  
+    
 枕形畸变公式系数k1=1.0，k2=-1.89e-3，k3=3.39e-6，k4=-4.14e-8，就是把上面枕形的k2到k4反号，校正前后形状对比如下：  
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061518%E6%A0%A1%E6%AD%A3%E5%89%8D%E5%90%8E%E5%9B%BE%E7%89%87.jpg)    
+不知道为什么枕形畸变的边缘过校了，明明按照原公式求解的，此处暂时忽略。  
 
 现在，我们来做一下改系数的实验，看看有什么变化？  
 
@@ -41,9 +43,9 @@
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061407%E6%A0%A1%E6%AD%A3%E5%89%8D%E5%90%8E%E5%9B%BE%E7%89%87.jpg)
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061407rurd%E6%9B%B2%E7%BA%BF.jpg)  
 
-- 系数k1=1，把k2变负号，即k2=-1.89e-3，感觉上应该变为枕形畸变，如下图所示：  
-    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061410%E6%A0%A1%E6%AD%A3%E5%89%8D%E5%90%8E%E5%9B%BE%E7%89%87.jpg)
-    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061422%E6%A1%B6%E5%BD%A2%E6%9E%95%E5%BD%A2%E6%9B%B2%E7%BA%BF%E5%B7%AE%E5%BC%82.jpg)  
+- 系数k1=1，把k2变负号，即k2=-1.89e-3，感觉应该是对枕形畸变的校正，如下图所示：  
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061622%E6%A0%A1%E6%AD%A3%E5%89%8D%E5%90%8E%E5%9B%BE%E7%89%87.jpg)
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061622rurd%E6%9B%B2%E7%BA%BF.jpg)  
     
     ru-rd曲线出现了断层，且后半段出现了负值，为解析这种情况，将像高取值范围扩大如下：  
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061422%E6%A1%B6%E5%BD%A2%E6%9E%95%E5%BD%A2%E6%9B%B2%E7%BA%BF%E5%B7%AE%E5%BC%82.jpg)   
