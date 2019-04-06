@@ -56,9 +56,11 @@
     
     实际r_d是连续的像高图像，对应的r_u虽然非单调，但始终存在唯一的r_u对应r_d；非单调性会导致不同r_d的图像重合在相同的r_u位置，这种现象不知道物理上如何解释，是否存在，有待各位的指导。  
 
-- 系数k1=1，k2=1.89e-3，k3=-3.39e-6，k4=0，如下图所示，桶形畸变校正得不如只有二阶项好，可见并不是结束越高；  
-
-
+- 系数k1=1，k2=1.89e-3，k3=-3.39e-6，k4=0，如下图所示，桶形畸变校正得不如只有二阶项好，可见并不是阶数越高校正越好；  
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061628I.jpg)   
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061628I.jpg)   
+    
+    
 
 
 
