@@ -58,8 +58,9 @@
 
 - 系数k1=1，k2=1.89e-3，k3=-3.39e-6，k4=0，如下图所示，桶形畸变校正得不如只有二阶项好，可见并不是阶数越高校正越好；  
     ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061628I.jpg)   
-    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061628I.jpg)   
+    ![](https://github.com/liuliutu/liuliutu.github.io/blob/master/img/201904061628rurd.jpg)   
     
+
     
 
 
